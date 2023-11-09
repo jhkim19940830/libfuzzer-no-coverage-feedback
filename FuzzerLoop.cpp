@@ -844,6 +844,7 @@ void Fuzzer::Loop(Vector<SizedFile> &CorporaFiles) {
 
     // Perform several mutations and runs.
     MutateAndTestOne();
+    printf("JHKIM1 \n");
 
     PurgeAllocator();
   }
